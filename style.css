@@ -1,0 +1,145 @@
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+body {
+    text-align: center;
+    /* background-color: aqua;
+    /*background-image: url(god.jpg);*/
+    color: white;
+}
+
+.world {
+    display: flex;
+    width: auto;
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(241, 241, 240, 0.925);
+    text-shadow: black 10px 10px 10px;
+}
+
+.btn-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+
+#btn {
+    border: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.9s;
+    font-size: 16px;
+    width: auto;
+
+}
+
+.active {
+    background-color: #00a76f;
+    color: white;
+    border-radius: 25px;
+}
+
+.join {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: rgba(241, 241, 240, 0.925);
+    text-shadow: black 10px 10px 10px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+header>p {
+    font-size: 30px;
+}
+
+.btn-container2 {
+    display: flex;
+    justify-content: center;
+    justify-items: right;
+    align-items: center;
+    margin: auto;
+}
+
+.active-1 {
+    background-color: #00a76f;
+    color: white;
+    border-radius: 25px;
+
+}
+
+/*footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15%;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100%;
+    height: 1px;
+    margin-top:2%;
+
+}*/
+/** <div class="join">
+            <a href="" target="_blank" class="join">Join us</a>
+            <h1 >Hindus Mythology</h1>
+        </div> 
+        <div class="btn-container2">
+            <a href=" " class="active-1" id="btn">Fcebook</a>
+            <a href=" " class="active-1" id="btn">Instagram</a>
+            <a href=" " class="active-1" id="btn">x</a>
+            <a href=" " class="active-1" id="btn">Whatsapp</a>
+            <a href=" " class="active-1" id="btn">Linkedin</a>
+        </div>**/
+footer {
+    margin-top: 12%;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+a:hover {
+    background-color: red;
+    font-size: 25px;
+  }
+.active:hover{
+    color:yellow;
+    background-color: red;
+    
+
+}
