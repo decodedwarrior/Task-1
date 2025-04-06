@@ -139,5 +139,5 @@ a:hover {
   }
 .active:hover{
     color:yellow;
-    background-color: red;
+    background-color: red; 
 }
